@@ -41,8 +41,8 @@ fun AppInfoContainer() {
             onClick = {
                 scope.launch {
                     val data = exportPreferences()
-                    File(globalClass.appFiles.file, "preferences.prismPrefs").writeText(data)
-                    showMsg(globalClass.getString(R.string.exported_prism_preferences))
+                    File(globalClass.appFiles.file, "preferences.explorerPrefs").writeText(data)
+                    showMsg(globalClass.getString(R.string.exported_explorer_preferences))
                 }
             }
         )

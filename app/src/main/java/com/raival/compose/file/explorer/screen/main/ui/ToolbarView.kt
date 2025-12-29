@@ -41,7 +41,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
 import com.raival.compose.file.explorer.App.Companion.globalClass
 import com.raival.compose.file.explorer.R
-import com.raival.compose.file.explorer.common.icons.PrismIcons
+import com.raival.compose.file.explorer.common.icons.ExplorerIcons
 import com.raival.compose.file.explorer.common.icons.Upgrade
 import com.raival.compose.file.explorer.screen.main.tab.files.FilesTab
 import com.raival.compose.file.explorer.screen.main.tab.home.HomeTab
@@ -68,7 +68,7 @@ fun Toolbar(
             ) {
                 if (hasNewUpdate) {
                     Icon(
-                        imageVector = PrismIcons.Upgrade,
+                        imageVector = ExplorerIcons.Upgrade,
                         contentDescription = null,
                         tint = MaterialTheme.colorScheme.error
                     )
@@ -137,7 +137,7 @@ fun MoreOptionsButton() {
                     },
                     leadingIcon = {
                         Icon(
-                            imageVector = PrismIcons.Upgrade,
+                            imageVector = ExplorerIcons.Upgrade,
                             contentDescription = null
                         )
                     }

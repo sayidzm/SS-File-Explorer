@@ -29,7 +29,7 @@ import com.raival.compose.file.explorer.common.icons.Java
 import com.raival.compose.file.explorer.common.icons.Kotlin
 import com.raival.compose.file.explorer.common.icons.Markdown
 import com.raival.compose.file.explorer.common.icons.Pdf
-import com.raival.compose.file.explorer.common.icons.PrismIcons
+import com.raival.compose.file.explorer.common.icons.ExplorerIcons
 import com.raival.compose.file.explorer.common.icons.Sql
 import com.raival.compose.file.explorer.common.icons.Vector
 import com.raival.compose.file.explorer.screen.main.tab.files.holder.ContentHolder
@@ -48,7 +48,7 @@ import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.markdownFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.pdfFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.pptFileType
-import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.prismPrefsFileType
+import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.explorerPrefsFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.sqlFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.vectorFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.videoFileType
@@ -69,13 +69,13 @@ private fun getContentIcon(content: ContentHolder): FileContentIcon {
 
     val extension = content.extension
 
-    if (extension == prismPrefsFileType) return FileContentIcon(Icons.Default.BuildCircle)
-    if (extension == javaFileType) return FileContentIcon(PrismIcons.Java)
-    if (extension == kotlinFileType) return FileContentIcon(PrismIcons.Kotlin)
-    if (extension == markdownFileType) return FileContentIcon(PrismIcons.Markdown)
-    if (extension == isoFileType) return FileContentIcon(PrismIcons.Iso)
-    if (extension == sqlFileType) return FileContentIcon(PrismIcons.Sql)
-    if (extension == pdfFileType) return FileContentIcon(PrismIcons.Pdf)
+    if (extension == explorerPrefsFileType) return FileContentIcon(Icons.Default.BuildCircle)
+    if (extension == javaFileType) return FileContentIcon(ExplorerIcons.Java)
+    if (extension == kotlinFileType) return FileContentIcon(ExplorerIcons.Kotlin)
+    if (extension == markdownFileType) return FileContentIcon(ExplorerIcons.Markdown)
+    if (extension == isoFileType) return FileContentIcon(ExplorerIcons.Iso)
+    if (extension == sqlFileType) return FileContentIcon(ExplorerIcons.Sql)
+    if (extension == pdfFileType) return FileContentIcon(ExplorerIcons.Pdf)
     if (extension == apkFileType) return FileContentIcon(Icons.Default.Android)
 
     if (videoFileType.contains(extension)) return FileContentIcon(Icons.Default.Videocam)
@@ -84,9 +84,9 @@ private fun getContentIcon(content: ContentHolder): FileContentIcon {
     if (excelFileType.contains(extension)) return FileContentIcon(Icons.Default.TableChart)
     if (pptFileType.contains(extension)) return FileContentIcon(Icons.Default.Slideshow)
     if (fontFileType.contains(extension)) return FileContentIcon(Icons.Default.TextFields)
-    if (vectorFileType.contains(extension)) return FileContentIcon(PrismIcons.Vector)
+    if (vectorFileType.contains(extension)) return FileContentIcon(ExplorerIcons.Vector)
     if (audioFileType.contains(extension)) return FileContentIcon(Icons.Default.Audiotrack)
-    if (codeFileType.contains(extension)) return FileContentIcon(PrismIcons.Code)
+    if (codeFileType.contains(extension)) return FileContentIcon(ExplorerIcons.Code)
     if (editableFileType.contains(extension)) return FileContentIcon(Icons.Default.Description)
     if (archiveFileType.contains(extension)) return FileContentIcon(Icons.Default.Archive)
 

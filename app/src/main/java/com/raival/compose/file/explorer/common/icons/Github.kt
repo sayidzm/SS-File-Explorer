@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Github: ImageVector by lazy {
+val ExplorerIcons.Github: ImageVector by lazy {
     ImageVector.Builder(
         name = "Github",
         defaultWidth = 84.dp,

@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Prism Eksplorator Plików</string>
+    <string name="app_name">Eksplorator Plików</string>
     <string name="root_dir">Katalog główny</string>
     <string name="internal_storage">Pamięć wewnętrzna</string>
     <string name="storage_permission_required">Wymagane jest zezwolenie na dostęp do pamięci</string>
     <string name="title_activity_text_editor">EdytorTekstuActivity</string>
-    <string name="main_activity_title">Prism Eksplorator Plików</string>
+    <string name="main_activity_title">Eksplorator Plików</string>
     <string name="jump_to_path">Przejdź do ścieżki</string>
     <string name="destination_path">Ścieżka docelowa</string>
     <string name="open">Otwórz</string>
@@ -425,7 +425,7 @@
     <string name="add_paths_to_exclude_desc">Dodaj nową ścieżkę do wykluczenia ze skanera ostatnich plików</string>
     <string name="about">O aplikacji</string>
     <string name="export_preferences">Eksportuj preferencje</string>
-    <string name="exported_prism_preferences">Wyeksportowano do /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">Wyeksportowano do /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">Aby zaimportować, zlokalizuj i otwórz wyeksportowany plik</string>
     <string name="invalid_preferences_file">Nieprawidłowy plik preferencji</string>
     <string name="preferences_imported_successfully">Preferencje pomyślnie zaimportowano</string>
@@ -453,4 +453,8 @@
     <string name="close_tab_on_back_nav">Nawigacja wsteczna do zamykania kart</string>
     <string name="remember_last_session">Zapamiętaj ostatnią sesję</string>
     <string name="confirm_before_exit">Potwierdź przed wyjściem z aplikacji</string>
+    <string name="language">Język</string>
+    <string name="select_language">Wybierz język</string>
+    <string name="english">Angielski</string>
+    <string name="turkish">Turecki</string>
 </resources>

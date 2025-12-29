@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Kotlin: ImageVector by lazy {
+val ExplorerIcons.Kotlin: ImageVector by lazy {
     ImageVector.Builder(
         name = "Kotlin",
         defaultWidth = 24.dp,

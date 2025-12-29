@@ -65,7 +65,7 @@ class App : Application(), coil3.SingletonImageLoader.Factory {
 
     val appFiles: LocalFileHolder
         get() = LocalFileHolder(
-            File(Environment.getExternalStorageDirectory(), ".prism")
+            File(Environment.getExternalStorageDirectory(), ".explorer")
                 .apply { if (!exists()) mkdirs() }
         )
 

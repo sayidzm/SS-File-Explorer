@@ -1,11 +1,11 @@
 <resources>
     <!--Created by The Translator <https://play.google.com/store/apps/details?id=com.sunilpaulmathew.translator>-->
-    <string name="app_name">"Prism File Explorer"</string>
+    <string name="app_name">"SS Dosya Gezgini"</string>
     <string name="root_dir">"Kök"</string>
     <string name="internal_storage">"Dahili Depolama"</string>
     <string name="storage_permission_required">"Depolama için erişim izni gereklidir"</string>
     <string name="title_activity_text_editor">"Metin Düzenleyici Ekranı"</string>
-    <string name="main_activity_title">"Prism File Explorer"</string>
+    <string name="main_activity_title">"SS Dosya Gezgini"</string>
     <string name="jump_to_path">"Yola git"</string>
     <string name="destination_path">"Hedef yol"</string>
     <string name="open">"Aç"</string>
@@ -426,7 +426,7 @@
     <string name="add_paths_to_exclude_desc">Son dosya tarayıcısından hariç tutulacak yeni yol ekle</string>
     <string name="about">Hakkında</string>
     <string name="export_preferences">Tercihleri Dışa Aktar</string>
-    <string name="exported_prism_preferences">Dışa aktarıldı: /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">Dışa aktarıldı: /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">İçe aktarmak için, dışa aktarılan dosyayı bulun ve açın</string>
     <string name="invalid_preferences_file">Geçersiz tercih dosyası</string>
     <string name="preferences_imported_successfully">Tercihler başarıyla içe aktarıldı</string>

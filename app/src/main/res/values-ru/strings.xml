@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Prism File Explorer</string>
+    <string name="app_name">SS File Explorer</string>
     <string name="root_dir">Корень</string>
     <string name="internal_storage">Внутреннее хранилище</string>
     <string name="storage_permission_required">Требуется разрешение на доступ к хранилищу</string>
     <string name="title_activity_text_editor">Текстовый редактор</string>
-    <string name="main_activity_title">Prism File Explorer</string>
+    <string name="main_activity_title">SS File Explorer</string>
     <string name="jump_to_path">Перейти к пути</string>
     <string name="destination_path">Путь назначения</string>
     <string name="open">Открыть</string>
@@ -425,7 +425,7 @@
     <string name="add_paths_to_exclude_desc">Добавить новый путь, который будет исключен из сканера недавних файлов</string>
     <string name="about">О программе</string>
     <string name="export_preferences">Экспорт настроек</string>
-    <string name="exported_prism_preferences">Экспортировано в /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">Экспортировано в /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">Для импорта найдите и откройте экспортированный файл</string>
     <string name="invalid_preferences_file">Неверный файл настроек</string>
     <string name="preferences_imported_successfully">Настройки успешно импортированы</string>
@@ -453,4 +453,8 @@
     <string name="close_tab_on_back_nav">Навигация назад для закрытия вкладок</string>
     <string name="remember_last_session">Запомнить последнюю сессию</string>
     <string name="confirm_before_exit">Подтвердить перед выходом из приложения</string>
+    <string name="language">Язык</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="english">Английский</string>
+    <string name="turkish">Турецкий</string>
 </resources>

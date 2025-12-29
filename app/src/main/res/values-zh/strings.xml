@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Prism File Explorer</string>
+    <string name="app_name">文件浏览器</string>
     <string name="root_dir">根目录</string>
     <string name="internal_storage">内部存储</string>
     <string name="storage_permission_required">需要存储访问权限</string>
     <string name="title_activity_text_editor">文本编辑器</string>
-    <string name="main_activity_title">Prism File Explorer</string>
+    <string name="main_activity_title">文件浏览器</string>
     <string name="jump_to_path">跳转到路径</string>
     <string name="destination_path">目标路径</string>
     <string name="open">打开</string>
@@ -425,7 +425,7 @@
     <string name="add_paths_to_exclude_desc">添加新路径以从最近文件扫描器中排除</string>
     <string name="about">关于</string>
     <string name="export_preferences">导出偏好设置</string>
-    <string name="exported_prism_preferences">已导出到 /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">已导出到 /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">要导入，请找到并打开导出的文件</string>
     <string name="invalid_preferences_file">无效的偏好设置文件</string>
     <string name="preferences_imported_successfully">偏好设置已成功导入</string>
@@ -453,4 +453,8 @@
     <string name="close_tab_on_back_nav">返回导航以关闭标签页</string>
     <string name="remember_last_session">记住上次会话</string>
     <string name="confirm_before_exit">退出应用前确认</string>
+    <string name="language">语言</string>
+    <string name="select_language">选择语言</string>
+    <string name="english">英语</string>
+    <string name="turkish">土耳其语</string>
 </resources>

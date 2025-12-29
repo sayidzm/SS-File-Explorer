@@ -58,7 +58,7 @@ import com.raival.compose.file.explorer.App.Companion.globalClass
 import com.raival.compose.file.explorer.App.Companion.logger
 import com.raival.compose.file.explorer.R
 import com.raival.compose.file.explorer.common.icons.Pin
-import com.raival.compose.file.explorer.common.icons.PrismIcons
+import com.raival.compose.file.explorer.common.icons.ExplorerIcons
 import com.raival.compose.file.explorer.screen.main.tab.home.data.HomeLayout
 import com.raival.compose.file.explorer.screen.main.tab.home.data.HomeSectionConfig
 import com.raival.compose.file.explorer.screen.main.tab.home.data.HomeSectionType
@@ -283,7 +283,7 @@ fun HomeSectionType.getIcon(): ImageVector {
         HomeSectionType.BOOKMARKS -> Icons.Rounded.Bookmarks
         HomeSectionType.RECYCLE_BIN -> Icons.Rounded.DeleteSweep
         HomeSectionType.JUMP_TO_PATH -> Icons.Rounded.ArrowOutward
-        HomeSectionType.PINNED_FILES -> PrismIcons.Pin
+        HomeSectionType.PINNED_FILES -> ExplorerIcons.Pin
     }
 }
 

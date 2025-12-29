@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Upgrade: ImageVector by lazy {
+val ExplorerIcons.Upgrade: ImageVector by lazy {
     ImageVector.Builder(
         name = "Upgrade",
         defaultWidth = 24.dp,

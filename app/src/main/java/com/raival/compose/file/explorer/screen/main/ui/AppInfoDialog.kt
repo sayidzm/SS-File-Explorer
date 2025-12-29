@@ -66,7 +66,7 @@ import coil3.compose.AsyncImage
 import com.raival.compose.file.explorer.App.Companion.globalClass
 import com.raival.compose.file.explorer.R
 import com.raival.compose.file.explorer.common.icons.Github
-import com.raival.compose.file.explorer.common.icons.PrismIcons
+import com.raival.compose.file.explorer.common.icons.ExplorerIcons
 import com.raival.compose.file.explorer.common.icons.Upgrade
 import com.raival.compose.file.explorer.common.ui.Space
 import com.raival.compose.file.explorer.screen.logs.LogsActivity
@@ -260,14 +260,14 @@ fun AppInfoDialog(
                                     enter = fadeIn(animationSpec = tween(delayMillis = 400))
                                 ) {
                                     ActionCard(
-                                        icon = PrismIcons.Github,
+                                        icon = ExplorerIcons.Github,
                                         title = stringResource(R.string.github),
                                         description = stringResource(R.string.view_source_code),
                                         onClick = {
                                             context.startActivity(
                                                 Intent(
                                                     Intent.ACTION_VIEW,
-                                                    "https://github.com/Raival-e/Prism-File-Explorer".toUri()
+                                                    "https://github.com/sayidzm/SS-File-Explorer".toUri()
                                                 )
                                             )
                                         }
@@ -345,7 +345,7 @@ private fun VersionBadge(
 
         if (hasUpdate && newVersion != null) {
             Icon(
-                imageVector = PrismIcons.Upgrade,
+                imageVector = ExplorerIcons.Upgrade,
                 contentDescription = null,
                 modifier = Modifier
                     .padding(horizontal = 8.dp)
@@ -401,7 +401,7 @@ private fun UpdateCard(
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    imageVector = PrismIcons.Upgrade,
+                    imageVector = ExplorerIcons.Upgrade,
                     contentDescription = null,
                     modifier = Modifier.size(24.dp),
                     tint = MaterialTheme.colorScheme.onPrimary

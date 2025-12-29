@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Prism File Explorer</string>
+    <string name="app_name">SS File Explorer</string>
     <string name="root_dir">Root</string>
     <string name="internal_storage">Internal Storage</string>
     <string name="storage_permission_required">Storage access permission is required</string>
     <string name="title_activity_text_editor">TextEditorActivity</string>
-    <string name="main_activity_title">Prism File Explorer</string>
+    <string name="main_activity_title">SS File Explorer</string>
     <string name="jump_to_path">Jump to path</string>
     <string name="destination_path">Destination path</string>
     <string name="open">Open</string>
@@ -425,7 +425,7 @@
     <string name="add_paths_to_exclude_desc">Add new path to be excluded from the recent file scanner</string>
     <string name="about">About</string>
     <string name="export_preferences">Export preferences</string>
-    <string name="exported_prism_preferences">Exported to /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">Exported to /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">To import, locate and open the exported file</string>
     <string name="invalid_preferences_file">Invalid preferences file</string>
     <string name="preferences_imported_successfully">Preferences imported successfully</string>

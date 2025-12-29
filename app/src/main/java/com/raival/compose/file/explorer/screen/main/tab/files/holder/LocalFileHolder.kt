@@ -22,7 +22,7 @@ import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.anyFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.codeFileType
 import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.editableFileType
-import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.prismPrefsFileType
+import com.raival.compose.file.explorer.screen.main.tab.files.misc.FileMimeType.explorerPrefsFileType
 import com.raival.compose.file.explorer.screen.viewer.audio.AudioPlayerActivity
 import com.raival.compose.file.explorer.screen.viewer.image.ImageViewerActivity
 import com.raival.compose.file.explorer.screen.viewer.pdf.PdfViewerActivity
@@ -262,7 +262,7 @@ class LocalFileHolder(val file: File) : ContentHolder() {
     fun readText() = file.readText()
 
     private fun handleSupportedFiles(skipSupportedExtensions: Boolean, context: Context): Boolean {
-        if (prismPrefsFileType == extension) {
+        if (explorerPrefsFileType == extension) {
             val activeTab = globalClass.mainActivityManager.getActiveTab()
             if (activeTab is FilesTab) {
                 activeTab.toggleImportPrefsDialog(this)

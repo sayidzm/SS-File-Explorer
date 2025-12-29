@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Code: ImageVector by lazy {
+val ExplorerIcons.Code: ImageVector by lazy {
     ImageVector.Builder(
         name = "CodeFile",
         defaultWidth = 24.dp,

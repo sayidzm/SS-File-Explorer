@@ -22727,9 +22727,9 @@ SPLcom/raival/compose/file/explorer/common/icons/CodeKt;->Code_delegate$lambda$2
 Lcom/raival/compose/file/explorer/common/icons/CodeKt$$ExternalSyntheticLambda0;
 SPLcom/raival/compose/file/explorer/common/icons/CodeKt$$ExternalSyntheticLambda0;-><init>()V
 SPLcom/raival/compose/file/explorer/common/icons/CodeKt$$ExternalSyntheticLambda0;->invoke()Ljava/lang/Object;
-Lcom/raival/compose/file/explorer/common/icons/PrismIcons;
-SPLcom/raival/compose/file/explorer/common/icons/PrismIcons;-><clinit>()V
-SPLcom/raival/compose/file/explorer/common/icons/PrismIcons;-><init>()V
+Lcom/raival/compose/file/explorer/common/icons/ExplorerIcons;
+SPLcom/raival/compose/file/explorer/common/icons/ExplorerIcons;-><clinit>()V
+SPLcom/raival/compose/file/explorer/common/icons/ExplorerIcons;-><init>()V
 Lcom/raival/compose/file/explorer/common/ui/BottomSheetDialogKt;
 SPLcom/raival/compose/file/explorer/common/ui/BottomSheetDialogKt;->$r8$lambda$TyNQibpkGPrQV6rvDHxNuwXkS7o(Lkotlin/jvm/functions/Function2;Landroidx/compose/foundation/layout/ColumnScope;Landroidx/compose/runtime/Composer;I)Lkotlin/Unit;
 SPLcom/raival/compose/file/explorer/common/ui/BottomSheetDialogKt;->$r8$lambda$vU5zXqBflY5uMSrtcD-NYRZXGfg(Lkotlin/jvm/functions/Function0;)Lkotlin/Unit;

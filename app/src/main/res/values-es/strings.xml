@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Explorador de Archivos Prism</string>
+    <string name="app_name">Explorador de Archivos</string>
     <string name="root_dir">Raíz</string>
     <string name="internal_storage">Almacenamiento Interno</string>
     <string name="storage_permission_required">Se requiere permiso de acceso al almacenamiento</string>
     <string name="title_activity_text_editor">Actividad Editor de Texto</string>
-    <string name="main_activity_title">Explorador de Archivos Prism</string>
+    <string name="main_activity_title">Explorador de Archivos</string>
     <string name="jump_to_path">Ir a ruta</string>
     <string name="destination_path">Ruta de destino</string>
     <string name="open">Abrir</string>
@@ -425,7 +425,7 @@
     <string name="add_paths_to_exclude_desc">Agregar nueva ruta a excluir del escaneo de archivos recientes</string>
     <string name="about">Acerca de</string>
     <string name="export_preferences">Exportar preferencias</string>
-    <string name="exported_prism_preferences">Exportado a /.prism/preferences.prismPrefs</string>
+    <string name="exported_explorer_preferences">Exportado a /.explorer/preferences.explorerPrefs</string>
     <string name="export_preferences_desc">Para importar, ubique y abra el archivo exportado</string>
     <string name="invalid_preferences_file">Archivo de preferencias inválido</string>
     <string name="preferences_imported_successfully">Preferencias importadas con éxito</string>
@@ -453,4 +453,8 @@
     <string name="close_tab_on_back_nav">Navegación hacia atrás para cerrar pestañas</string>
     <string name="remember_last_session">Recordar última sesión</string>
     <string name="confirm_before_exit">Confirmar antes de salir de la aplicación</string>
+    <string name="language">Idioma</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="english">Inglés</string>
+    <string name="turkish">Turco</string>
 </resources>

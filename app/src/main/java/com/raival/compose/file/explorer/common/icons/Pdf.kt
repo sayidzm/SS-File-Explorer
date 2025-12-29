@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Pdf: ImageVector by lazy {
+val ExplorerIcons.Pdf: ImageVector by lazy {
     ImageVector.Builder(
         name = "PDF",
         defaultWidth = 24.dp,

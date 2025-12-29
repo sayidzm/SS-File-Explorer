@@ -6,7 +6,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 
-val PrismIcons.Markdown: ImageVector by lazy {
+val ExplorerIcons.Markdown: ImageVector by lazy {
     ImageVector.Builder(
         name = "Markdown",
         defaultWidth = 26.dp,
