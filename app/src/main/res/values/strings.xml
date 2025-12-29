@@ -453,4 +453,8 @@
     <string name="close_tab_on_back_nav">Back navigation to close tabs</string>
     <string name="remember_last_session">Remember last session</string>
     <string name="confirm_before_exit">Confirm before exiting the app</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
+    <string name="english">English</string>
+    <string name="turkish">Turkish</string>
 </resources>

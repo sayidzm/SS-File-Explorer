@@ -105,7 +105,16 @@ class App : Application(), coil3.SingletonImageLoader.Factory {
 
         appContext = this
 
+        applyLanguage()
+
         cleanOnExitDir()
+    }
+
+    private fun applyLanguage() {
+        val lang = preferencesManager.language
+        val appLocale: androidx.core.os.LocaleListCompat =
+            androidx.core.os.LocaleListCompat.forLanguageTags(lang)
+        androidx.appcompat.app.AppCompatDelegate.setApplicationLocales(appLocale)
     }
 
     fun cleanOnExitDir() {

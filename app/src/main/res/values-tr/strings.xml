@@ -453,5 +453,9 @@
     <string name="remember_last_session_desc">etkinleştirilirse, başlangıç sekmeleri yoksayılır</string>
     <string name="close_tab_on_back_nav">Sekmeleri kapatmak için geri gitme</string>
     <string name="remember_last_session">Son oturumu hatırla</string>
-    <string name="confirm_before_exit">Uygulamadan çıkmadan önce onayla</string>
+    <string name="confirm_before_exit">"Uygulamadan çıkmadan önce onayla"</string>
+    <string name="language">"Dil"</string>
+    <string name="select_language">"Dil seçin"</string>
+    <string name="english">"İngilizce"</string>
+    <string name="turkish">"Türkçe"</string>
 </resources>

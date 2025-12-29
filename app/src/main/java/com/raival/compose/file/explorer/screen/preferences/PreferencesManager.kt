@@ -1,8 +1,10 @@
 package com.raival.compose.file.explorer.screen.preferences
 
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.core.os.LocaleListCompat
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
@@ -59,6 +61,20 @@ class PreferencesManager {
         defaultValue = false,
         getPreferencesKey = { booleanPreferencesKey(it) }
     )
+
+    private var _language by prefMutableState(
+        keyName = "appLanguage",
+        defaultValue = "en",
+        getPreferencesKey = { stringPreferencesKey(it) }
+    )
+
+    var language: String
+        get() = _language
+        set(value) {
+            _language = value
+            val appLocale: LocaleListCompat = LocaleListCompat.forLanguageTags(value)
+            AppCompatDelegate.setApplicationLocales(appLocale)
+        }
 
 
     //---------- File List -------------//

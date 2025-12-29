@@ -99,5 +99,39 @@ fun AppearanceContainer() {
             switchState = prefs.hideToolbar,
             onSwitchChange = { prefs.hideToolbar = it }
         )
+
+        HorizontalDivider(
+            color = MaterialTheme.colorScheme.surfaceContainerLow,
+            thickness = 3.dp
+        )
+
+        PreferenceItem(
+            label = stringResource(R.string.language),
+            supportingText = when (prefs.language) {
+                "tr" -> stringResource(R.string.turkish)
+                else -> stringResource(R.string.english)
+            },
+            icon = Icons.AutoMirrored.Rounded.Label,
+            onClick = {
+                prefs.singleChoiceDialog.show(
+                    title = globalClass.getString(R.string.language),
+                    description = globalClass.getString(R.string.select_language),
+                    choices = listOf(
+                        globalClass.getString(R.string.english),
+                        globalClass.getString(R.string.turkish)
+                    ),
+                    selectedChoice = when (prefs.language) {
+                        "tr" -> 1
+                        else -> 0
+                    },
+                    onSelect = {
+                        prefs.language = when (it) {
+                            1 -> "tr"
+                            else -> "en"
+                        }
+                    }
+                )
+            }
+        )
     }
 }
